@@ -1,0 +1,41 @@
+.nav__wrapper{
+  background-color: rgba(0,0,0,0.4);
+  font-size: 30px;
+  display: flex;
+
+
+.btn__main{
+    background-color: black;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+  }
+  .exit{
+    position: absolute;
+    right: 0;
+    height: 94px;
+  }
+
+.nav{
+  position: relative;
+  left: 30%;
+ }
+
+ul{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+li{
+  display: flex;
+  margin-left: 30px;
+  
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.active{
+  color: blue;
+}
+}

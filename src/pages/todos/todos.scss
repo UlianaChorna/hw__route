@@ -1,0 +1,32 @@
+
+.container{
+  background-color: rgb(42, 58, 58);
+  height: 100vh;
+
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+  .todo_item{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    border: solid 1px;
+    padding: 10px 10px;
+  }
+  .list__todos{
+    display: flex;
+    flex-direction: column;
+  }
+  li{
+    display: flex;
+    justify-content: center;
+  }
+  .todo__item{
+    margin: 10px 20px;
+  }
+  .edit__btn{
+    border: none;
+    background-color: rgb(42, 58, 58);
+  }
+}

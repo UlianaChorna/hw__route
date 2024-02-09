@@ -1,0 +1,22 @@
+.container{
+  background-color: rgb(42, 58, 58);
+  height: 100vh;
+
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+ .post__list{
+    display: flex;
+    flex-direction: column;
+  }
+ .post__item{
+  font-size: 20px;
+  padding: 10px;   
+ } 
+ .post__details{
+   text-align: center;
+   font-size: 30px;
+   padding-bottom: 100px;
+ }
+}
