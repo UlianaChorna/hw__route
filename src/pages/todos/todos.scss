@@ -1,7 +1,26 @@
 
 .container{
   background-color: rgb(42, 58, 58);
-  height: 100vh;
+
+  .edit_input{
+    height: 30px;
+    border: none;
+    line-height: 30px;
+    background-color: rgb(27, 83, 84);
+    text-align: 200;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 13px;
+    padding: 10px;
+  }
+
+  .btn_edit{
+    border-radius: 10px;
+    margin:0 5px;
+    height: 30px;
+    border: none;
+    background-color: rgb(27, 83, 84);
+  }
 
   h2{
     font-size: 50px;

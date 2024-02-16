@@ -30,12 +30,12 @@ console.log(localUserName)
           <label htmlFor="password">Password</label>
           <input type="password" placeholder='password'  value={password} onChange={e => setPassword(e.target.value)}/>
 
-          <button type="submit"> 
+          <button type="submit" className='btn_submit'> 
           <Link to='/main'> Login</Link>
           </button>
         </form>
   
-        <p>Do you have an Account? <Link to='/register'>Register Now</Link> </p>
+        <p>You don't have an Account? <Link to='/register'>Register Now</Link> </p>
       </div>
      
     </div>

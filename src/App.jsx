@@ -8,7 +8,7 @@ import TodoList from "./pages/todos/TodosPage";
 import { useState } from "react";
 
 const App = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [ setIsLoggedIn] = useState(false);
 
   return (
   <Router>

@@ -4,7 +4,6 @@
 .container{
   
   background-size: cover;
-  height: 100vh;
   position: relative;
 
   h2{
@@ -17,6 +16,7 @@
   }
  .user__item{
     font-size: 20px;
+    cursor: pointer;
     padding: 10px;   
  } 
  .user__details{
